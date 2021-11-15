@@ -6,14 +6,14 @@
 - Points in each cluster are distributed according to a Gaussian distribution N(mu, Sigma)
 - Idea: fit a Gaussian mixture model to stocks in each sector to identify relationships in their price movements
 - Competitive advantage hypothesis: jointly modeling the dynamics of multiple stocks in a sector can unearth interesting relationships and enable strategic pairs trading across multiple stocks
-(insert 3 clusters image)
+<img src="./Picture0.png" alt="Clusters" width="50%" height="50%">
 
 - Logistic Regression
   - Analogous to linear regression, but for classification
   - Use a linear combination of features to classify something into categories
   - Our application: use logistic regression to predict which cluster in a Gaussian mixture model will govern today's price movements for each sector. We would trade differently based on which cluster is predicted for a given day
 
-(insert logistic regression image and linear regression image
+<img src="./Picture1.png" alt="Clusters" width="100%" height="100%">
 
 ## Methodology
 - We fit a Gaussian mixture model for pairs of stocks within each of 3 sectors. 
@@ -24,6 +24,7 @@
 
 ## Data
 - Data was manually from Yahoo Finance
+
 - We collected 2 types of data
   - Daily stock price data for 11 stocks across 3 industries (Oil, Medicine, Media)
   - Market variable data (e.g. market volatility, S&P 500 1-day returns, S&P 500 10-day returns)
@@ -43,7 +44,13 @@
 - Clusters all reflect positive correlation between Exxon Mobil and BP
 - Cluster prediction could govern: 1) options trades (e.g. straddle), 2) pairs trading: trade different amounts and in different ratios based on expected volatility and correlation of stocks
 
-(insert 3 images of contour plots)
+###### Figure out how to put images next to each other without using CSS
+<div float="left">
+  <span> <img src="./Picture2.png" alt="Contour Plot 1" width="30%" height="30%"> </span>
+  <span> <img src="./Picture3.png" alt="Contour Plot 2" width="30%" height: "30%"> </span>
+  <span> <img src="./Picture4.png" alt="Contour Plot 3" width="30%" height: "30%"> </span>
+</div>
+
 
 ### Results: Media Sector
 - There are 2 dominant clusters and 1 non-dominant cluster for pi.
