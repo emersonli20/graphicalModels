@@ -44,13 +44,11 @@
 - Clusters all reflect positive correlation between Exxon Mobil and BP
 - Cluster prediction could govern: 1) options trades (e.g. straddle), 2) pairs trading: trade different amounts and in different ratios based on expected volatility and correlation of stocks
 
-###### Figure out how to put images next to each other without using CSS
 <div float="left">
-  <span> <img src="./Picture2.png" alt="Contour Plot 1" width="30%" height="30%"> </span>
-  <span> <img src="./Picture3.png" alt="Contour Plot 2" width="30%" height: "30%"> </span>
-  <span> <img src="./Picture4.png" alt="Contour Plot 3" width="30%" height: "30%"> </span>
+  <img src="./Picture2.png" alt="Contour Plot 1" width="30%" height="30%"> 
+  <img src="./Picture3.png" alt="Contour Plot 2" width="30%" height="30%"> 
+  <img src="./Picture3.png" alt="Contour Plot 1" width="30%" height="30%"> 
 </div>
-
 
 ### Results: Media Sector
 - There are 2 dominant clusters and 1 non-dominant cluster for pi.
@@ -101,4 +99,3 @@
 
 
 
-###### This is readme is a transcription of the file "Graphical Models Presentation.pptx"
