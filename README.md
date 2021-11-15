@@ -50,7 +50,40 @@
 - Cluster 3 (the non dominant cluster) captures highly volatile market conditions while clusters 1 and 2 have less uncertainty
 - The clusters are somewhat well-separated but not very well-separated
 - For each cluster, the price for each stock usually goes up on average
-(insert table)
+
+<table>
+  <tr>
+    <td> </td>
+    <th> DISH </th>
+    <th> T (AT&T) </th>
+    <th> CMCSA (Comcast) </th>
+    <th> DIS (Disney) </th>
+  </tr>
+  
+  <tr>
+    <td>Cluster 1 </td>
+    <td> + </td>
+    <td> + </td>
+    <td> + </td>
+    <td> + </td>
+  </tr>
+  
+  <tr>
+    <td>Cluster 2 </td>
+    <td> - </td>
+    <td> + </td>
+    <td> + </td>
+    <td> + </td>
+  </tr>
+  
+  <tr>
+    <td>Cluster 3 </td>
+    <td> + </td>
+    <td> - </td>
+    <td> + </td>
+    <td> + </td>
+  </tr>  
+</table>
 
 ## Conclusion
 ### Currently, there are still steps we need to take in the future:
