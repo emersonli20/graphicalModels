@@ -1,4 +1,4 @@
-# graphicalModels
+# Graphical Models
 
 ## Gausian Mixture Models Background
 - A probabilistic approach to clustering (i.e. discretely categorizing) data
